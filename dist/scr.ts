@@ -5,7 +5,6 @@ function rectangleInfo(width: number, height: number): { perimeter: number; area
     return { perimeter, area };
 }
 
-const result = rectangleInfo(5, 10);
+const result = rectangleInfo(10, 20);
 console.log(`Chu vi: ${result.perimeter}`);
 console.log(`Diện tích: ${result.area}`);
-g
