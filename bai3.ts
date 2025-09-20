@@ -1,0 +1,12 @@
+
+function countChar(str: string, char: string): number {
+    let count = 0;
+    for (let c of str) {
+        if (c === char) count++;
+    }
+    return count;
+}
+
+
+console.log(countChar("hello world", "o")); // 2
+console.log(countChar("banana", "a"));      // 3
