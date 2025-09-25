@@ -13,7 +13,8 @@ const getSumArrow = (): number => {
 
 console.log("Function thường:", getSum());
 console.log("Arrow function:", getSumArrow());
-// Default value
+
+
 const sumDefault = (a: number, b: number = 5): number => a + b;
 
 const sumOptional = (a: number, b?: number): number => {
